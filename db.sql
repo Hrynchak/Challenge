@@ -25,10 +25,7 @@ SET time_zone = "+06:00";
 --
 -- Table structure for table `follow_system`
 --
-drop database if exists db;
-create database db;
 
-use db;
 
 
 CREATE TABLE `follow_system` (
