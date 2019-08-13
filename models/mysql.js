@@ -4,10 +4,10 @@ const
   { MYSQL_HOST, MYSQL_USER, MYSQL_PASSWORD, MYSQL_DATABASE } = process.env
 
 const db = mysql.createConnection({
-  host: 'c584md9egjnm02sk.cbetxkdyhwsb.us-east-1.rds.amazonaws.com',
-  user: 'ghzocq16mvrw0ml0',
-  password: 'at2o0dvtk73er2vn',
-  database: 'a15sfp68k8d1zqnp',
+  host: MYSQL_HOST,
+  user: MYSQL_USER,
+  password: MYSQL_PASSWORD,
+  database: MYSQL_DATABASE,
   charset: "utf8mb4"
 })
 
