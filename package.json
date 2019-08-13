@@ -5,10 +5,8 @@
   "main": "app.js",
   "scripts": {
     "start": " node app.js",
-    "less": "less-watch-compiler",
-    "public": "concurrently \"npm run dev\" \"npm run less\""
   },
-  "author": "takkar <www.shtakkar@gmail.com>",
+  "author": "",
   "license": "ISC",
   "dependencies": {
     "animate-components": "^1.4.2",
