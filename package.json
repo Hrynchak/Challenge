@@ -5,8 +5,6 @@
   "main": "app.js",
   "scripts": {
     "start": "nodemon app.js",
-    "dev": "webpack -d --watch",
-    "build": "webpack -p --watch",
     "less": "less-watch-compiler",
     "public": "concurrently \"npm run dev\" \"npm run less\""
   },
